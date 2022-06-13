@@ -1,7 +1,7 @@
 export default function topMenu () {
   return (
-    // <section>
+    <section>
       <p>hello</p>
-    //{/* </section> */}
+    </section>
   )
 }
