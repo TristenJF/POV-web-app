@@ -10,9 +10,8 @@ export default function SecondBox() {
         </div>
             <h3 class='text-muted'>
               <ul>
-                <li class='text-muted'>A timeline to track actions, mutations</li>
-                <li>Time travel debugging: This allows you to see if your events are triggered correctly and inspect the state associated with the time of the event.</li>
-                <li>State inspector panel used to view and debug current state</li>
+                <li class='p-2'>When building your reactive components with Vue, you might want to try out a variety of component values or manipulate component data in realtime.</li>
+                <li class='p-2'>With this feature, you can edit all data types, toggle Boolean values, and manipulate array values.</li>
               </ul>
             </h3>
 

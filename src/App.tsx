@@ -1,10 +1,12 @@
 import TopMenu from "./topMenu";
-import ContentBoxLeft from './contentBoxLeft';
-import ContentBoxRight from "./contentBoxRight";
+// import ContentBoxLeft from './contentBoxLeft';
+// import ContentBoxRight from "./contentBoxRight";
 import TeamSection from './teamSection';
 import Spacer from './spacer';
 import FirstBox from "./firstBox";
 import SecondBox from './secondBox';
+import ThirdBox from "./thirdBox";
+import FourthBox from './fourthBox';
 export default function App() {
   return (
     <>
@@ -24,14 +26,25 @@ export default function App() {
 
         {/* <ContentBoxLeft title='Devtool Integration' text='Vestibulum elit dolor, posuere at tristique id, convallis sed nunc. Vivamus vulputate imperdiet sem eget molestie. Mauris bibendum nunc elementum, viverra quam nec, sollicitudin tellus. Nunc non ipsum gravida, maximus urna sed, sodales tortor. Pellentesque eleifend diam id sodales dignissim. Ut imperdiet ultrices mi laoreet vulputate. Integer eu orci sed arcu posuere tempus. Nunc vitae malesuada sapien. Pellentesque scelerisque vitae lorem eget posuere. Vestibulum eu scelerisque ipsum. Maecenas sapien ante, imperdiet vitae lacus et, vehicula imperdiet magna. Nam dignissim magna eget molestie porttitor. Etiam quis ultricies urna, vitae rhoncus nunc.' image='Assets/state-panel-demo.gif' /> */}
         <Spacer />
-        <ContentBoxRight title='Some Other Stuff' text='Pellentesque eu blandit metus, ut dignissim leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris malesuada efficitur finibus. Vivamus nec vestibulum dolor, vel interdum nisl. Mauris ut urna non nisl consectetur iaculis. Etiam non ante ut orci venenatis gravida malesuada vitae elit. Praesent tincidunt finibus neque, et dignissim lacus pellentesque a. Quisque mattis, risus in mollis ultricies, sem enim placerat ipsum, sit amet tincidunt sem est vitae libero. Integer dictum sapien orci, at dictum justo vestibulum id. Pellentesque vel felis et elit condimentum congue. Suspendisse nec sagittis lorem. Curabitur in odio vel urna laoreet sollicitudin. Quisque accumsan ipsum non dictum ultrices. Proin eget consectetur urna, ut congue ligula. Nulla ut lacinia mi.' image='Assets/state-timeline.gif' />
+        <ThirdBox />
+        {/* <ContentBoxRight title='Some Other Stuff' text='Pellentesque eu blandit metus, ut dignissim leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris malesuada efficitur finibus. Vivamus nec vestibulum dolor, vel interdum nisl. Mauris ut urna non nisl consectetur iaculis. Etiam non ante ut orci venenatis gravida malesuada vitae elit. Praesent tincidunt finibus neque, et dignissim lacus pellentesque a. Quisque mattis, risus in mollis ultricies, sem enim placerat ipsum, sit amet tincidunt sem est vitae libero. Integer dictum sapien orci, at dictum justo vestibulum id. Pellentesque vel felis et elit condimentum congue. Suspendisse nec sagittis lorem. Curabitur in odio vel urna laoreet sollicitudin. Quisque accumsan ipsum non dictum ultrices. Proin eget consectetur urna, ut congue ligula. Nulla ut lacinia mi.' image='Assets/state-timeline.gif' /> */}
         <Spacer />
-        <ContentBoxLeft title='Some Other Stuff' text='Pellentesque eu blandit metus, ut dignissim leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris malesuada efficitur finibus. Vivamus nec vestibulum dolor, vel interdum nisl. Mauris ut urna non nisl consectetur iaculis. Etiam non ante ut orci venenatis gravida malesuada vitae elit. Praesent tincidunt finibus neque, et dignissim lacus pellentesque a. Quisque mattis, risus in mollis ultricies, sem enim placerat ipsum, sit amet tincidunt sem est vitae libero. Integer dictum sapien orci, at dictum justo vestibulum id. Pellentesque vel felis et elit condimentum congue. Suspendisse nec sagittis lorem. Curabitur in odio vel urna laoreet sollicitudin. Quisque accumsan ipsum non dictum ultrices. Proin eget consectetur urna, ut congue ligula. Nulla ut lacinia mi.' image='Assets/troubleshoot.gif' />
+        <div class='container border-top border-bottom'>
+        <div class='text-center p-5'>
+          <h1 class='display-4'>More Coming Soon..</h1>
+          <h4 class='test-muted'>Please note that Point of Vue  is currently within its Beta phase. However, the team has several additional features planned and in the works. A few of these features include:</h4>
+        </div>
       </div>
-      <div class='text-center'>
-        <h1 class='display-4'>Checkout our Article</h1>
-        <a href="">Medium</a>
+        <FourthBox />
+        {/* <ContentBoxLeft title='Some Other Stuff' text='Pellentesque eu blandit metus, ut dignissim leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris malesuada efficitur finibus. Vivamus nec vestibulum dolor, vel interdum nisl. Mauris ut urna non nisl consectetur iaculis. Etiam non ante ut orci venenatis gravida malesuada vitae elit. Praesent tincidunt finibus neque, et dignissim lacus pellentesque a. Quisque mattis, risus in mollis ultricies, sem enim placerat ipsum, sit amet tincidunt sem est vitae libero. Integer dictum sapien orci, at dictum justo vestibulum id. Pellentesque vel felis et elit condimentum congue. Suspendisse nec sagittis lorem. Curabitur in odio vel urna laoreet sollicitudin. Quisque accumsan ipsum non dictum ultrices. Proin eget consectetur urna, ut congue ligula. Nulla ut lacinia mi.' image='Assets/troubleshoot.gif' /> */}
       </div>
+      <div class='container border-top border-bottom'>
+        <div class='text-center p-4'>
+          <h1 class='display-4'>Check Out Our Article</h1>
+          <button class="btn btn-secondary" type="button" onclick="window.location.href='povjs.com';">Medium</button>
+        </div>
+      </div>
+
       <TeamSection />
     </>
 

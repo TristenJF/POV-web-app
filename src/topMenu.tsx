@@ -31,7 +31,7 @@ export default function topMenu () {
     <button class="btn btn-outline-success" type="button" onclick="window.location.href='https://github.com/oslabs-beta/point-of-vue';">Github</button>
     </div>
     <div class='col'>
-    <button class="btn btn-outline-secondary" type="button">Download</button>
+    <button class="btn btn-outline-secondary" type="button" onclick="window.location.href='https://www.npmjs.com/package/point-of-vue';">Download</button>
     </div>
   
     
